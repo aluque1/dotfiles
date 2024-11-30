@@ -1,0 +1,34 @@
+#! /bin/sh
+
+sxhkd &
+
+bspc monitor -d 1 2 3 4 5
+
+bspc config border_width        1
+bspc config window_gap          12
+bspc config border_width        2
+bspc config active_border_color \#FFFFFF
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle  	 true
+bspc config gapless_monocle     	 true
+bspc config focus_follows_pointer	 true
+bspc config click_to_focus		 true
+bspc config top_padding 30
+bspc config bottom_padding 5
+bspc config right_padding 5
+bspc config left_padding 5
+bspc config focused_border_color    '#F38BA8'
+bspc config center_pseudo_tiled 	false
+bspc config single_monocle 		true
+
+sh .screenlayout/default.sh &
+feh --bg-fill ~/Pictures/wall1.jpg &
+compton -c -o 0.3 -r 8 & 
+xsetroot -cursor_name left_ptr &
+polybar top &
+
+
+sh ~/scripts/startiup/okayipullup.sh > /dev/null
+# to not see errors: 
+# sh ~/scripts/startiup/okayipullup.sh &> /dev/null

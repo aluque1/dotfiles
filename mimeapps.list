@@ -1,0 +1,23 @@
+[Default Applications]
+x-scheme-handler/http=userapp-Firefox-QXLFX2.desktop
+x-scheme-handler/https=userapp-Firefox-QXLFX2.desktop
+x-scheme-handler/chrome=userapp-Firefox-QXLFX2.desktop
+text/html=userapp-Firefox-QXLFX2.desktop
+application/x-extension-htm=userapp-Firefox-QXLFX2.desktop
+application/x-extension-html=userapp-Firefox-QXLFX2.desktop
+application/x-extension-shtml=userapp-Firefox-QXLFX2.desktop
+application/xhtml+xml=userapp-Firefox-QXLFX2.desktop
+application/x-extension-xhtml=userapp-Firefox-QXLFX2.desktop
+application/x-extension-xht=userapp-Firefox-QXLFX2.desktop
+
+[Added Associations]
+x-scheme-handler/http=userapp-Firefox-QXLFX2.desktop;
+x-scheme-handler/https=userapp-Firefox-QXLFX2.desktop;
+x-scheme-handler/chrome=userapp-Firefox-QXLFX2.desktop;
+text/html=userapp-Firefox-QXLFX2.desktop;
+application/x-extension-htm=userapp-Firefox-QXLFX2.desktop;
+application/x-extension-html=userapp-Firefox-QXLFX2.desktop;
+application/x-extension-shtml=userapp-Firefox-QXLFX2.desktop;
+application/xhtml+xml=userapp-Firefox-QXLFX2.desktop;
+application/x-extension-xhtml=userapp-Firefox-QXLFX2.desktop;
+application/x-extension-xht=userapp-Firefox-QXLFX2.desktop;

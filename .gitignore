@@ -1,0 +1,23 @@
+## Ignore following folders
+
+.gsd-keyboard.settings-ported
+Code - OSS/
+QtProject.conf
+Thunar/
+dconf/
+evolution/
+geany/
+gh/
+gnome-initial-setup-done
+gnome-session/
+goa-1.0/
+gtk-3.0/
+gtk-4.0/
+ibus/
+libreoffice/
+mimeapps-list
+nautilus/
+pulse/
+user-dirs.dirs
+user-dirs.locale
+xfce4/
