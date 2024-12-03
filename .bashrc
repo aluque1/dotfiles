@@ -7,7 +7,7 @@ alias ls='ls --color=auto'
 
 # Custom prompt
 # LUQUE -> "pwd"
-PS1='\[\e[31m\]  LUQUE\[\e[32m\] -> \[\e[34m\]\w\[\e[0m\] '
+PS1='\[\e[31m\] LUQUE\[\e[32m\] -> \[\e[34m\]\w\[\e[0m\] '
 
 #########################
 #  	alias		#
@@ -23,7 +23,7 @@ alias up='sudo xbps-install -Su'
 alias uskb='setxkbmap -layout us'
 alias eskb='setxkbmap -layout es'
 alias code='code-oss'
-alias clear='clear && sh ~/scripts/afetch/afetch ~/scripts/afetch/cicada'
+alias clear='clear && sh ~/scripts/afetch/afetch ~/scripts/afetch/comp'
 alias c='clear'
 
 ## Workflow aliases
@@ -33,5 +33,5 @@ alias falprep='./scripts/fal/folders.sh'
 alias daprep='./scripts/da/folders.sh'
 alias update='sh ~/scripts/logout/pushinp.sh'
 alias getgit='sh ~/scripts'
-sh ~/scripts/afetch/afetch ~/scripts/afetch/cicada
+sh ~/scripts/afetch/afetch ~/scripts/afetch/comp
 eskb
