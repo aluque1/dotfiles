@@ -14,5 +14,8 @@ Using with Void Linux
 
 TODO : 
 - [x] nvim configuration
-Have been playing around still have to look at more plugins and how to get LSPs going to at least c, c++ and SQL
+- Have some more plugins installed. Configure the LSPs for c++, c and sql as for now
+    - A file explorer like yazi
+    - Debugger and runner for c and c++
+    - Color scheme (sonokai)[https://github.com/sainnhe/sonokai]
 - [ ] firefox configuration

@@ -17,4 +17,8 @@ use {
 -- For TreeSitter
 use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use('nvim-treesitter/playground')
+--For undo history tree
+use('mbbill/undotree')
+--For fugitive (git wrapper)
+use('tpope/vim-fugitive')
 end)
