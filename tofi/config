@@ -1,0 +1,26 @@
+font-size = 18
+font = JetBrainMono Nerd Font
+hint-font = false
+text-color = #cbccc6
+selection-color = #f38ba8
+selection-match-color = #807E98
+background-color = #11111b
+border-color = #323a4c
+
+prompt-text = ""
+placeholder-text = "Search:"
+num-results = 5
+result-spacing = 5
+
+width = 25%
+height = 25%
+outline-width = 0
+border-width = 3
+corner-radius = 0
+padding-left = 2%
+padding-bottom = 0
+padding-top = 2%
+padding-right = 0
+
+hide-cursor = true
+late-keyboard-init = true
